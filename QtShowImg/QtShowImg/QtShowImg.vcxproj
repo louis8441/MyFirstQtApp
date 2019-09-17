@@ -113,20 +113,17 @@
     </QtRcc>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="FirstQtApp.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="QtShowImg.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="FirstQtApp.h" />
+    <QtMoc Include="QtShowImg.h" />
   </ItemGroup>
   <ItemGroup>
-    <QtUic Include="FirstQtApp.ui" />
+    <QtUic Include="QtShowImg.ui" />
   </ItemGroup>
   <ItemGroup>
-    <QtRcc Include="FirstQtApp.qrc" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="main.h" />
+    <QtRcc Include="QtShowImg.qrc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

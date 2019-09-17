@@ -10,6 +10,7 @@ class FirstQtApp : public QWidget
 public:
 	FirstQtApp(QWidget *parent = Q_NULLPTR);
 
+
 private:
 	Ui::FirstQtAppClass ui;
 };
